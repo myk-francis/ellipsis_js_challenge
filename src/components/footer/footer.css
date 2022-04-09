@@ -1,0 +1,149 @@
+.footer-container {
+  flex: 2;
+  background-color: #191b23;
+  width: 100%;
+  height: 100%;
+}
+
+.ft-withpadding {
+  padding: 20px 100px;
+}
+
+.fc-ft-top {
+}
+
+.ft-top-links {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-top-links-home {
+  color: white;
+  font-size: small;
+  padding-right: 5px;
+}
+
+.footer-top-links {
+  padding-left: 5px;
+  padding-right: 5px;
+  border-left: 1px solid white;
+  color: white;
+  font-size: small;
+}
+
+.ft-top-copyright {
+  color: white;
+  font-size: small;
+  margin-top: 10px;
+}
+
+.fc-ft-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.ft-bottom-socials {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.social-fb {
+  cursor: pointer;
+}
+
+.social-twitter {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.social-instagram {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.social-svg {
+  width: 20px;
+  height: 20px;
+}
+
+.ft-bottom-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+
+.buttons-apple {
+  width: 30%;
+}
+
+.buttons-android {
+  width: 30%;
+}
+
+.buttons-microsoft {
+  width: 30%;
+}
+
+.button-svg {
+  cursor: pointer;
+}
+
+.button-svg-micro {
+  height: 50%;
+  width: 60%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 820px) {
+  .ft-bottom-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .ft-top-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top-links {
+    color: white;
+    font-size: small;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-container {
+    flex: 2;
+    background-color: #191b23;
+    width: 100%;
+    height: 100%;
+    position: static;
+  }
+
+  .ft-bottom-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .ft-top-links {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-top-links {
+    color: white;
+    font-size: small;
+  }
+}
