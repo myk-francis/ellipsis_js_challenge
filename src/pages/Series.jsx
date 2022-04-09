@@ -8,7 +8,9 @@ const Series = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch("http://localhost:5000/entries?programType=series&_start=0&_end=21")
+    fetch(
+      "http://localhost:5000/entries?programType=series&_start=0&_end=21&releaseYear_gte=2010"
+    )
       .then((response) => response.json())
       .then((data) => setEntries(data))
       .catch((error) => {

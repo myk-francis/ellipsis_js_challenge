@@ -43,13 +43,28 @@ const Footer = (props) => {
         <div className="fc-ft-bottom">
           <div className="ft-bottom-socials">
             <div className="social-fb">
-              <img src={facebook} alt="" className="social-svg" />
+              <img
+                data-testid="fbicon"
+                src={facebook}
+                alt=""
+                className="social-svg"
+              />
             </div>
             <div className="social-twitter">
-              <img src={twitter} alt="" className="social-svg" />
+              <img
+                data-testid="twittericon"
+                src={twitter}
+                alt=""
+                className="social-svg"
+              />
             </div>
             <div className="social-instagram">
-              <img src={instagram} alt="" className="social-svg" />
+              <img
+                data-testid="instagramicon"
+                src={instagram}
+                alt=""
+                className="social-svg"
+              />
             </div>
           </div>
           <div className="ft-bottom-buttons">

@@ -7,7 +7,9 @@ const Item = ({ url, title }) => {
     <div className="item">
       <div className="item-image">
         <img src={url} alt="" className="item-img" />
-        <span className="item-desc-span">{title}</span>
+        <span data-testid="title-item" className="item-desc-span">
+          {title}
+        </span>
       </div>
     </div>
   );
