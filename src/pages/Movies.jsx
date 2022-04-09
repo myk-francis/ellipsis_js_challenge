@@ -22,7 +22,7 @@ const Movies = () => {
 
   return (
     <>
-      <Header />
+      <Header title="Popular Movies" />
       <ListItem errors={errors} loading={loading} entries={entries} />
       <Footer />
     </>

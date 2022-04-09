@@ -2,7 +2,7 @@ import React from "react";
 // import PropTypes from 'prop-types'
 import "./header.css";
 
-const Header = (props) => {
+const Header = ({ title }) => {
   return (
     <div className="navbar-container">
       <div className="navbar-title">
@@ -19,7 +19,7 @@ const Header = (props) => {
         </div>
       </div>
       <div className="navbar-subtitle">
-        <span className="n-s-subtitle">Popular Movies</span>
+        <span className="n-s-subtitle">{title}</span>
       </div>
     </div>
   );

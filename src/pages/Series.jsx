@@ -22,7 +22,7 @@ const Series = () => {
 
   return (
     <>
-      <Header />
+      <Header title="Popular Series" />
       <ListItem errors={errors} loading={loading} entries={entries} />
       <Footer />
     </>
